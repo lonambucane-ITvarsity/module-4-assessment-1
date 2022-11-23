@@ -1,14 +1,14 @@
-.body{
+body{ 
     margin: 0;
-    padding: 0;
-    width: 100%;
-    background-color: white;
-}
+    padding: 0;  
+    width: 100%;                                           
+    background-color: white;	    
+ }
 
 #left-column{
-    width: 60%;
-    float: left;
-    background-color: aqua;
+   width: 60%;
+   float: left;
+   background-color:darkorange;     
 }
 
 #right-column img{
