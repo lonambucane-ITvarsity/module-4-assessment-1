@@ -1,50 +1,25 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+.body{
     margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
 }
 
-body{
-    display: flex;
-    flex-direction: row;
+#left-column{
+    width: 60%;
+    float: left;
+    background-color: aqua;
 }
 
-#left-column {
-    background-color: aquamarine;
-    flex: 1 65%;
-    flex-flow: row wrap;
+#right-column img{
+    width: 230px;
+    margin-left: 140px;
+    margin-top: 100px;
 }
 
-/*eyes & mouth resizing*/
-div > #body  {
-    width: 30px;
-} 
-/*glasses resizing*/
-div > #body1  {
-    width: 40px;
-} 
-/*hats & shoes resizing*/
-div > #body2  {
-    width: 70px;
-} 
-/*pants resizing*/
-div > #body3  {
+img#logo{
+    position: fixed;
     width: 150px;
-    height: 220px;
-} 
-
-#right-column{
-    flex: 1 35%;
+    bottom: 20px;
+    right: 10px;
 }
- div > #human{
-     margin-top: 100px;
-     margin-left: 150px;
-    width: 200px;
-}
-
- div > #logo {
-     position: fixed;
-     right: 0;
-     bottom: 0;
-     width: 180px;
- }
